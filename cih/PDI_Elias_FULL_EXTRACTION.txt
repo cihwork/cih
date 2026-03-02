@@ -1,0 +1,1032 @@
+================================================================================
+ABA: Resumo PDI
+================================================================================
+Dimensões: A1:H37
+Merges: [<MergedCellRange B11:D11>, <MergedCellRange A30:H30>, <MergedCellRange A15:H15>, <MergedCellRange B8:D8>, <MergedCellRange B13:D13>, <MergedCellRange A1:H1>, <MergedCellRange B20:H20>, <MergedCellRange B10:D10>, <MergedCellRange B9:D9>, <MergedCellRange B16:H16>, <MergedCellRange B6:D6>, <MergedCellRange B5:D5>, <MergedCellRange B18:H18>, <MergedCellRange B21:H21>, <MergedCellRange A2:H2>, <MergedCellRange B4:D4>, <MergedCellRange A23:H23>, <MergedCellRange B7:D7>, <MergedCellRange B17:H17>, <MergedCellRange B12:D12>, <MergedCellRange B19:H19>]
+
+--- Larguras das Colunas ---
+  Col A width: 22.0
+  Col B width: 55.0
+  Col C width: 18.0
+  Col D width: 12.0
+  Col E width: 45.0
+  Col F width: 15.0
+  Col G width: 15.0
+  Col H width: 15.0
+
+--- Alturas das Linhas ---
+  Row 16 height: 35.0
+  Row 17 height: 35.0
+  Row 18 height: 35.0
+  Row 19 height: 35.0
+  Row 20 height: 35.0
+  Row 21 height: 35.0
+
+--- Conteúdo Célula por Célula ---
+  [A1] = 'PDI - ELIAS FERNANDES DOS SANTOS | POLIDIESEL' | fill=none | bold=True | fontSize=14.0 | fontColor=000097A7 | alignH=center | alignV=center | wrap=True
+  [A2] = 'Plano de Desenvolvimento Individual — Ciclo Março a Agosto/2026 (v2 — revisado com kick-off)' | fill=none | bold=True | fontSize=12.0 | fontColor=0000796B | alignH=center | alignV=center | wrap=True
+  [A4] = 'Colaborador' | fill=00E0F2F1 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B4] = 'Elias Fernandes dos Santos' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A5] = 'Cargo' | fill=00E0F2F1 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B5] = 'Responsável Técnico / Supervisor de Mecânica (em transição)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A6] = 'Empresa' | fill=00E0F2F1 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B6] = 'Polidiesel' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A7] = 'Tempo de Casa' | fill=00E0F2F1 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B7] = '~20 anos' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A8] = 'Perfil DISC' | fill=00E0F2F1 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B8] = 'Executor (D) — Autocrata' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A9] = 'Liderança Direta' | fill=00E0F2F1 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B9] = 'Caio Freitas (sócio — responsável pelo acompanhamento do PDI)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A10] = 'Consultora CIH' | fill=00E0F2F1 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B10] = 'Eleine Passos' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A11] = 'Equipe' | fill=00E0F2F1 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B11] = '7 colaboradores (área mecânica)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A12] = 'Ciclo PDI' | fill=00E0F2F1 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B12] = 'Março/2026 a Agosto/2026 (6 meses)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A13] = 'Confiança de Caio' | fill=00E0F2F1 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B13] = '10/10 em confiança | 9/10 em expectativa de evolução' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A15] = 'CONTEXTO DA TRANSIÇÃO (KICK-OFF COM CAIO)' | fill=none | bold=True | fontSize=12.0 | fontColor=0000796B | alignH=None | alignV=None | wrap=None
+  [A16] = 'Papel definido por Caio' | fill=00F5F5F5 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B16] = 'Responsável técnico direcionado ao administrativo de mecânica. Foco em DIAGNÓSTICO, não execução. Intermediar recepção e área técnica.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A17] = 'Expectativa de Caio' | fill=00F5F5F5 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B17] = 'Elias conduzir reuniões de produção, ser ponto focal técnico, revisar/assinar relatórios diários, dar direcionamento de tarefas ao time.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A18] = 'Gap identificado' | fill=00F5F5F5 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B18] = 'Área mecânica ficou sem liderança após redução de pessoal. Diagnósticos errados e informações perdidas sem um responsável.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A19] = 'Ferramentas em uso' | fill=00F5F5F5 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B19] = 'Planilha de gerenciamento para serviços externos (em teste há 3 meses). Plano de TV para gestão à vista. Sugestão de tablet para campo.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A20] = 'Risco de dependência' | fill=00F5F5F5 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B20] = 'Caio reconhece risco: Elias é insubstituível tecnicamente. Há 2 anos quase saiu. Precisa formar pelo menos 1 backup.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A21] = 'Responsabilidade 50/50' | fill=00F5F5F5 | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B21] = 'Desenvolvimento é 50% do colaborador e 50% da empresa (Eleine). Caio fornecerá suporte (acesso, tempo, recursos).' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A23] = 'COMPETÊNCIAS PRIORIZADAS (4 COMPETÊNCIAS)' | fill=none | bold=True | fontSize=12.0 | fontColor=0000796B | alignH=None | alignV=None | wrap=None
+  [A24] = '#' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [B24] = 'Competência' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [C24] = 'Nível Atual' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [D24] = 'Meta' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [E24] = 'Peso' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [F24] = 'Status Mês 1' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [G24] = 'Status Mês 2' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [H24] = 'Status Mês 3' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [A25] = 1 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B25] = 'Escuta Ativa e Comunicação Adaptada ao Perfil da Equipe' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C25] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [D25] = 3 | fill=00E8F5E9 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E25] = '30%' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A26] = 2 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B26] = 'Transição de Executor para Líder (Soltar a Execução)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C26] = 1 | fill=00FFEBEE | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [D26] = 3 | fill=00E8F5E9 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E26] = '30%' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A27] = 3 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B27] = 'Gestão Técnica e Formação da Equipe' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C27] = 1 | fill=00FFEBEE | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [D27] = 3 | fill=00E8F5E9 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E27] = '25%' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A28] = 4 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B28] = 'Inteligência Emocional e Gestão de Energia' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C28] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [D28] = 3 | fill=00E8F5E9 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E28] = '15%' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A30] = 'INDICADORES DISC — PONTOS DE ATENÇÃO' | fill=none | bold=True | fontSize=12.0 | fontColor=0000796B | alignH=None | alignV=None | wrap=None
+  [A31] = 'Indicador' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [B31] = 'Valor' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [C31] = 'Classificação' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [D31] = 'Impacto' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [E31] = 'Ação Recomendada' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [A32] = 'Energia (EN)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B32] = 6.9 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C32] = 'Baixa' | fill=00FFF3E0 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D32] = 'Capacidade reduzida de absorver mudanças' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E32] = 'Mapa de energia + rituais de recarga' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A33] = 'Moral (MRL)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B33] = 1.2 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C33] = 'Normal Baixo' | fill=00FFF3E0 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D33] = 'Sente que mudanças devem ocorrer' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E33] = 'Alinhar expectativas com Caio' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A34] = 'Flexibilidade (IF)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B34] = -4.76 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C34] = 'Normal Baixo' | fill=00FFF3E0 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D34] = 'Dificuldade para adaptar comportamento' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E34] = 'Exposição gradual a novas abordagens' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A35] = 'Energia do Perfil (ENP)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B35] = 72.22 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C35] = 'Extremamente Alta' | fill=00E8F5E9 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D35] = 'Potencial enorme represado' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E35] = 'Canalizar em desafios de liderança' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A36] = 'Exigência do Meio (IEM)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B36] = 66.76 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C36] = 'Normal Alto' | fill=00E8F5E9 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D36] = 'Ambiente cobra adaptações' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E36] = 'Reduzir gap com desenvolvimento' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A37] = 'Positividade (IP)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B37] = 25 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C37] = 'Extremamente Alto' | fill=00E8F5E9 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D37] = 'Autoestima forte — recurso positivo' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E37] = 'Usar como alavanca para desenvolvimento' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+
+================================================================================
+ABA: Plano de Ações
+================================================================================
+Dimensões: A1:L23
+Merges: [<MergedCellRange A1:L1>]
+
+--- Larguras das Colunas ---
+  Col A width: 5.0
+  Col B width: 30.0
+  Col C width: 16.0
+  Col D width: 35.0
+  Col E width: 60.0
+  Col F width: 12.0
+  Col G width: 12.0
+  Col H width: 12.0
+  Col I width: 38.0
+  Col J width: 15.0
+  Col K width: 18.0
+  Col L width: 12.0
+
+--- Alturas das Linhas ---
+
+--- Conteúdo Célula por Célula ---
+  [A1] = 'PLANO DE AÇÕES — PDI ELIAS FERNANDES (v2 — 20 ações, 4 competências)' | fill=none | bold=True | fontSize=14.0 | fontColor=000097A7 | alignH=center | alignV=center | wrap=True
+  [A3] = '#' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [B3] = 'Competência' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [C3] = 'Tipo 70-20-10' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [D3] = 'Ação' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [E3] = 'Descrição Detalhada' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [F3] = 'Prazo Início' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [G3] = 'Prazo Fim' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [H3] = 'Frequência' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [I3] = 'Indicador de Sucesso' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [J3] = 'Responsável' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [K3] = 'Fonte' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [L3] = 'Status' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [A4] = 1 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B4] = 'Escuta Ativa e Comunicação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C4] = '70% Experiência' | fill=00E3F2FD | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D4] = 'Reuniões individuais mensais' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E4] = '20-30 min com cada um dos 7 membros. Roteiro: Como você está? O que está difícil? O que posso fazer? Mais escutar, menos falar.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F4] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G4] = 'Ago/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H4] = 'Mensal' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I4] = '7 reuniões/mês com anotações' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J4] = 'Elias' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K4] = 'DISC + Devolutiva' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L4] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A5] = 2 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B5] = 'Escuta Ativa e Comunicação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C5] = '70% Experiência' | fill=00E3F2FD | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D5] = 'Conduzir reunião diária de produção' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E5] = 'Assumir a condução das reuniões de produção com o time mecânico. Descrever ordens de serviço em aberto, definir prioridades, dar direcionamento de tarefas. Caio observa e depois dá feedback.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F5] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G5] = 'Ago/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H5] = 'Diário' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I5] = 'Reunião conduzida por Elias 5x/semana' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J5] = 'Elias' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K5] = 'Kick-off (Caio)' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L5] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A6] = 3 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B6] = 'Escuta Ativa e Comunicação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C6] = '70% Experiência' | fill=00E3F2FD | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D6] = 'Mapa de perfis do time' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E6] = 'Com apoio de Eleine, identificar perfil DISC de cada membro. Criar cola com estilo de comunicação ideal por pessoa.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F6] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G6] = 'Abr/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H6] = 'Única' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I6] = 'Mapa completo dos 7 perfis' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J6] = 'Elias + Eleine' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K6] = 'DISC' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L6] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A7] = 4 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B7] = 'Escuta Ativa e Comunicação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C7] = '70% Experiência' | fill=00E3F2FD | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D7] = 'Regra dos 10 segundos' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E7] = "Após fazer pergunta em reunião, contar até 10 mentalmente antes de responder. Dar espaço para o time. Especialmente importante porque Elias é 'de poucas palavras' e tende a encurtar diálogos." | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F7] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G7] = 'Ago/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H7] = 'Diário' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I7] = 'Auto-avaliação semanal' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J7] = 'Elias' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K7] = 'DISC + Kick-off' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L7] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A8] = 5 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B8] = 'Escuta Ativa e Comunicação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C8] = '20% Social' | fill=00FFF8E1 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D8] = 'Mentoria semanal com Caio' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E8] = '15-20 min para discutir situações com a equipe: como eu lidaria vs. como devo lidar. Caio compartilha como ele próprio aprendeu a se comunicar.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F8] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G8] = 'Ago/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H8] = 'Semanal' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I8] = '4+ conversas/mês registradas' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J8] = 'Elias + Caio' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K8] = 'DISC + Kick-off' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L8] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A9] = 6 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B9] = 'Escuta Ativa e Comunicação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C9] = '10% Formal' | fill=00F3E5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D9] = 'Estudo dos perfis DISC' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E9] = 'Ler material completo do resultado DISC (Caio imprime e entrega). Entender diferenças entre Comunicador, Executor, Analista e Planejador.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F9] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G9] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H9] = 'Única' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I9] = 'Leitura concluída + 3 insights' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J9] = 'Elias' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K9] = 'DISC + Devolutiva' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L9] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A10] = 7 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B10] = 'Transição Executor → Líder' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C10] = '70% Experiência' | fill=00E3F2FD | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D10] = 'Sabatina semanal com o time' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E10] = 'Apresentar demanda/problema e pedir que o time traga soluções. Elias observa, questiona e orienta — NÃO executa. Foco: fazer o time pensar e resolver.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F10] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G10] = 'Ago/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H10] = 'Semanal' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I10] = '1 sabatina/semana com registro' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J10] = 'Elias' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K10] = 'Devolutiva' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L10] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A11] = 8 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B11] = 'Transição Executor → Líder' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C11] = '70% Experiência' | fill=00E3F2FD | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D11] = "Diário 'Quase Meti a Mão'" | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E11] = 'Registrar toda vez que sentir o impulso de pegar na execução. Anotar: situação, sentimento, o que fez em vez de executar. Foco em DIAGNÓSTICO, não execução (conforme definido por Caio no kick-off).' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F11] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G11] = 'Mai/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H11] = 'Diário' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I11] = 'Redução progressiva dos episódios' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J11] = 'Elias' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K11] = 'DISC + Kick-off' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L11] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A12] = 9 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B12] = 'Transição Executor → Líder' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C12] = '70% Experiência' | fill=00E3F2FD | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D12] = 'Delegação com ensino' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E12] = 'Ao delegar: 1) Explicar O QUÊ; 2) Perguntar COMO faria; 3) Complementar; 4) Acompanhar sem fazer. Se resultado não for perfeito, usar como oportunidade de ensino — não refazer.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F12] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G12] = 'Ago/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H12] = 'Contínuo' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I12] = '3 delegações/semana neste formato' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J12] = 'Elias' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K12] = 'Devolutiva' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L12] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A13] = 10 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B13] = 'Transição Executor → Líder' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C13] = '70% Experiência' | fill=00E3F2FD | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D13] = 'Foco no diagnóstico técnico' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E13] = 'Assumir o papel de ponto focal técnico: receber as demandas da recepção, diagnosticar, e DIRECIONAR o mecânico adequado para a execução. Encurtar a distância recepção ↔ área técnica, sem executar o serviço.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F13] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G13] = 'Ago/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H13] = 'Contínuo' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I13] = 'Elias é consultado em 80%+ dos diagnósticos' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J13] = 'Elias' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K13] = 'Kick-off (Caio)' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L13] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A14] = 11 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B14] = 'Transição Executor → Líder' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C14] = '20% Social' | fill=00FFF8E1 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D14] = 'Conversa com Caio sobre delegação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E14] = "Discutir situações onde é difícil soltar a execução. Buscar feedback de como Caio aprendeu a delegar. Caio compartilha quais tarefas já pode 'soltar' para Elias decidir." | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F14] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G14] = 'Ago/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H14] = 'Quinzenal' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I14] = '2-3 tarefas delegadas por mês' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J14] = 'Elias + Caio' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K14] = 'Kick-off' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L14] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A15] = 12 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B15] = 'Transição Executor → Líder' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C15] = '10% Formal' | fill=00F3E5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D15] = 'Sessão Líder Multiplicador' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E15] = "Eleine apresenta em sessão de 30min: líder não faz melhor que o time — faz o time fazer melhor. Referência: 'O trabalho do líder é trabalhar o trabalho' (Liz Wiseman)." | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F15] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G15] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H15] = 'Única' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I15] = 'Sessão realizada + 3 princípios' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J15] = 'Eleine' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K15] = 'Devolutiva' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L15] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A16] = 13 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B16] = 'Gestão Técnica e Formação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C16] = '70% Experiência' | fill=00E3F2FD | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D16] = 'Revisão e assinatura de relatórios diários' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E16] = 'Revisar e assinar os relatórios diários de cada mecânico. Garantir que está a par de todos os serviços. Usar como instrumento de acompanhamento e gestão, não apenas burocracia.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F16] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G16] = 'Ago/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H16] = 'Diário' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I16] = '100% dos relatórios revisados e assinados' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J16] = 'Elias' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K16] = 'Kick-off (Caio)' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L16] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A17] = 14 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B17] = 'Gestão Técnica e Formação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C17] = '70% Experiência' | fill=00E3F2FD | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D17] = 'Avaliação técnica e comportamental da equipe' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E17] = "Avaliar cada mecânico em 2 dimensões: competência técnica e postura/atitude. Criar ranking para alocar recursos de forma eficaz. Usar termo 'avaliação' (não 'julgamento', conforme orientação de Eleine)." | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F17] = 'Abr/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G17] = 'Mai/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H17] = 'Mensal' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I17] = 'Ficha de avaliação preenchida para os 7' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J17] = 'Elias + Eleine' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K17] = 'Kick-off (Caio + Eleine)' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L17] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A18] = 15 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B18] = 'Gestão Técnica e Formação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C18] = '70% Experiência' | fill=00E3F2FD | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D18] = 'Identificar e desenvolver um potencial sucessor' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E18] = 'Elias identifica pelo menos 1 mecânico com potencial para cobrir suas funções (inicialmente para férias). Começa a envolvê-lo em diagnósticos e decisões. Formar alguém reduz o risco de dependência técnica que preocupa Caio.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F18] = 'Abr/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G18] = 'Ago/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H18] = 'Contínuo' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I18] = '1 pessoa sendo desenvolvida ativamente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J18] = 'Elias + Caio' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K18] = 'Kick-off (Eleine)' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L18] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A19] = 16 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B19] = 'Gestão Técnica e Formação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C19] = '70% Experiência' | fill=00E3F2FD | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D19] = 'Gestão da planilha de serviços' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E19] = 'Assumir a atualização e análise da planilha de gerenciamento de serviços externos. Usar para tomada de decisão sobre alocação de mão de obra, priorização e prazos. Reportar para Caio com análise, não apenas dados.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F19] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G19] = 'Ago/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H19] = 'Diário' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I19] = 'Planilha atualizada diariamente com análise semanal' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J19] = 'Elias' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K19] = 'Kick-off (Caio)' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L19] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A20] = 17 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B20] = 'Gestão Técnica e Formação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C20] = '20% Social' | fill=00FFF8E1 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D20] = 'Observar Caio fazendo gestão' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E20] = "Acompanhar Caio em momentos de avaliação de desempenho, tomada de decisão sobre equipe, e feedback. Aprender o 'olhar de gestão' observando quem já faz. Eleine orienta: 'A melhor forma de aprender é observando Caio fazer com ele.'" | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F20] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G20] = 'Mai/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H20] = 'Quinzenal' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I20] = '4+ situações observadas com reflexão' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J20] = 'Elias + Caio' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K20] = 'Kick-off (Eleine)' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L20] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A21] = 18 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B21] = 'Inteligência Emocional' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C21] = '70% Experiência' | fill=00E3F2FD | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D21] = 'Regra Pause & Reframe' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E21] = "Em frustração/conflito, pausar e perguntar: 'Como quero que essa pessoa saia se sentindo dessa conversa?' Reformular se necessário." | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F21] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G21] = 'Ago/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H21] = 'Diário' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I21] = '3+ situações/semana registradas' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J21] = 'Elias' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K21] = 'DISC' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L21] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A22] = 19 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B22] = 'Inteligência Emocional' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C22] = '70% Experiência' | fill=00E3F2FD | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D22] = 'Mapa de energia semanal' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E22] = 'Registrar atividades que dão energia (+) e drenam (-). Identificar padrões em 4 semanas. Ajustar rotina para proteger energia (EN=6,9 — baixa).' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F22] = 'Mar/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G22] = 'Abr/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H22] = 'Semanal' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I22] = 'Mapa com 3+ padrões identificados' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J22] = 'Elias' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K22] = 'DISC' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L22] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A23] = 20 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B23] = 'Inteligência Emocional' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C23] = '20% Social' | fill=00FFF8E1 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D23] = 'Feedback anônimo do time' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [E23] = 'Eleine coleta anonimamente a cada 2 meses: O que melhorou? O que ainda incomoda? Perguntas sobre comunicação, escuta, clima e liderança.' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [F23] = 'Abr/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [G23] = 'Ago/2026' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [H23] = 'Bimestral' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [I23] = 'Evolução entre 1ª e 2ª coleta' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [J23] = 'Eleine' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [K23] = 'DISC + Devolutiva' | fill=00F5F5F5 | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [L23] = 'Pendente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+
+================================================================================
+ABA: Acompanhamento Semanal
+================================================================================
+Dimensões: A1:K16
+Merges: [<MergedCellRange A1:K1>]
+
+--- Larguras das Colunas ---
+  Col A width: 12.0
+  Col B width: 16.0
+  Col C width: 55.0
+  Col D width: 14.0
+  Col E width: 14.0
+  Col F width: 14.0
+  Col G width: 14.0
+  Col H width: 35.0
+  Col I width: 35.0
+  Col J width: 30.0
+  Col K width: 30.0
+
+--- Alturas das Linhas ---
+  Row 4 height: 45.0
+  Row 5 height: 45.0
+  Row 6 height: 45.0
+  Row 7 height: 45.0
+  Row 8 height: 45.0
+  Row 9 height: 45.0
+  Row 10 height: 45.0
+  Row 11 height: 45.0
+  Row 12 height: 45.0
+  Row 13 height: 45.0
+  Row 14 height: 45.0
+  Row 15 height: 45.0
+  Row 16 height: 45.0
+
+--- Conteúdo Célula por Célula ---
+  [A1] = 'ACOMPANHAMENTO SEMANAL — 3 MESES (MARÇO A MAIO/2026)' | fill=none | bold=True | fontSize=14.0 | fontColor=000097A7 | alignH=center | alignV=center | wrap=True
+  [A3] = 'Semana' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [B3] = 'Período' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [C3] = 'Foco Principal' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [D3] = 'Escuta Ativa\n(Nota 1-5)' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [E3] = 'Transição Líder\n(Nota 1-5)' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [F3] = 'Gestão Técnica\n(Nota 1-5)' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [G3] = 'Intelig. Emocional\n(Nota 1-5)' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [H3] = 'Ações Realizadas' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [I3] = 'Dificuldades / Bloqueios' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [J3] = 'Próximos Passos' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [K3] = 'Observações do Consultor' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [A4] = 'Semana 1' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B4] = '02/03 a 06/03' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C4] = 'Leitura DISC + Conduzir 1ª reunião de produção + Início reuniões individuais + Mapa de energia' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A5] = 'Semana 2' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B5] = '09/03 a 13/03' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C5] = '1ª sabatina + Regra dos 10s + Delegação com ensino + Revisão de relatórios diários' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A6] = 'Semana 3' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B6] = '16/03 a 20/03' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C6] = 'Sessão Líder Multiplicador + Foco em diagnóstico (não execução) + Gestão da planilha' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A7] = 'Semana 4' | fill=00FFF3E0 | bold=True | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B7] = '23/03 a 27/03' | fill=00FFF3E0 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C7] = 'CHECKPOINT MÊS 1 — Avaliar primeiras semanas com Eleine + Caio avalia condução de reuniões' | fill=00FFF3E0 | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A8] = 'Semana 5' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B8] = '30/03 a 03/04' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C8] = 'Consolidar sabatinas + Aprofundar reuniões individuais + Iniciar avaliação técnica do time' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A9] = 'Semana 6' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B9] = '06/04 a 10/04' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C9] = 'Mapa de perfis completo + Início leitura Goleman + Identificar potencial sucessor' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A10] = 'Semana 7' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B10] = '13/04 a 17/04' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C10] = '1ª coleta feedback anônimo do time + Observar Caio fazendo gestão' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A11] = 'Semana 8' | fill=00FFF3E0 | bold=True | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B11] = '20/04 a 24/04' | fill=00FFF3E0 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C11] = 'CHECKPOINT MÊS 2 — Avaliar evolução com Eleine + Caio + Avaliar planilha e relatórios' | fill=00FFF3E0 | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A12] = 'Semana 9' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B12] = '27/04 a 01/05' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C12] = 'Avaliar padrões do mapa de energia + Ficha de avaliação dos 7 mecânicos' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A13] = 'Semana 10' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B13] = '04/05 a 08/05' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C13] = 'Ajustar ações que drenam energia + Aprofundar formação do sucessor' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A14] = 'Semana 11' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B14] = '11/05 a 15/05' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C14] = 'Aprofundar delegação — identificar tarefas operacionais para soltar definitivamente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A15] = 'Semana 12' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B15] = '18/05 a 22/05' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C15] = 'Consolidar gestão técnica + Preparar evidências de evolução' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A16] = 'Semana 13' | fill=00FFF3E0 | bold=True | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B16] = '25/05 a 29/05' | fill=00FFF3E0 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C16] = 'CHECKPOINT MÊS 3 — Revisão geral + Ajuste do PDI + Feedback de Caio sobre condução de reuniões' | fill=00FFF3E0 | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+
+================================================================================
+ABA: Resultado e Evolução
+================================================================================
+Dimensões: A1:H47
+Merges: [<MergedCellRange A9:H9>, <MergedCellRange A26:H26>, <MergedCellRange B40:H40>, <MergedCellRange B41:H41>, <MergedCellRange B42:H42>, <MergedCellRange A38:H38>, <MergedCellRange B44:H44>, <MergedCellRange B43:H43>, <MergedCellRange B39:H39>, <MergedCellRange B47:H47>, <MergedCellRange A1:H1>, <MergedCellRange B45:H45>, <MergedCellRange B46:H46>]
+
+--- Larguras das Colunas ---
+  Col A width: 48.0
+  Col B width: 15.0
+  Col C width: 15.0
+  Col D width: 15.0
+  Col E width: 15.0
+  Col F width: 15.0
+  Col G width: 15.0
+  Col H width: 15.0
+
+--- Alturas das Linhas ---
+  Row 39 height: 30.0
+  Row 40 height: 30.0
+  Row 41 height: 30.0
+  Row 42 height: 30.0
+  Row 43 height: 30.0
+  Row 44 height: 30.0
+  Row 45 height: 30.0
+  Row 46 height: 30.0
+  Row 47 height: 30.0
+
+--- Conteúdo Célula por Célula ---
+  [A1] = 'RESULTADO DO PDI — EVOLUÇÃO DAS COMPETÊNCIAS' | fill=none | bold=True | fontSize=14.0 | fontColor=000097A7 | alignH=center | alignV=center | wrap=True
+  [A3] = 'Competência' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [B3] = 'Nível Inicial' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [C3] = 'Meta' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [D3] = 'Mês 1' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [E3] = 'Mês 2' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [F3] = 'Mês 3' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [G3] = 'Nível Final' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [H3] = 'Atingiu?' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [A4] = 'Escuta Ativa e Comunicação Adaptada' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B4] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C4] = 3 | fill=00E8F5E9 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A5] = 'Transição Executor → Líder' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B5] = 1 | fill=00FFEBEE | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C5] = 3 | fill=00E8F5E9 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A6] = 'Gestão Técnica e Formação da Equipe' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B6] = 1 | fill=00FFEBEE | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C6] = 3 | fill=00E8F5E9 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A7] = 'Inteligência Emocional e Gestão de Energia' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B7] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C7] = 3 | fill=00E8F5E9 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A9] = 'INDICADORES DE ACOMPANHAMENTO' | fill=none | bold=True | fontSize=12.0 | fontColor=0000796B | alignH=None | alignV=None | wrap=None
+  [A10] = 'Indicador' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [B10] = 'Baseline' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [C10] = 'Meta Mês 1' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [D10] = 'Real Mês 1' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [E10] = 'Meta Mês 2' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [F10] = 'Real Mês 2' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [G10] = 'Meta Mês 3' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [H10] = 'Real Mês 3' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [A11] = 'Reuniões individuais realizadas (/7)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B11] = 0 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C11] = 7 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E11] = 7 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [G11] = 7 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A12] = 'Reuniões de produção conduzidas por Elias' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B12] = 0 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C12] = '20/mês' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E12] = '20/mês' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [G12] = '20/mês' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A13] = 'Sabatinas semanais realizadas' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B13] = 0 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C13] = 4 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E13] = 4 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [G13] = 4 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A14] = 'Delegações com ensino por semana' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B14] = 0 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C14] = 3 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E14] = 3 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [G14] = 3 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A15] = "Episódios 'Quase Meti a Mão' (menor=melhor)" | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B15] = '—' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C15] = 'Registrar' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E15] = 'Reduzir 30%' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [G15] = 'Reduzir 50%' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A16] = 'Relatórios diários revisados e assinados' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B16] = 0 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C16] = '100%' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E16] = '100%' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [G16] = '100%' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A17] = 'Planilha de serviços atualizada' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B17] = '—' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C17] = 'Diário' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E17] = 'Diário' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [G17] = 'Diário + análise' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A18] = 'Diagnósticos feitos por Elias (sem executar)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B18] = '—' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C18] = 'Registrar' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E18] = '80%+ dos casos' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [G18] = '90%+ dos casos' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A19] = 'Trocas com Caio por mês' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B19] = 0 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C19] = 4 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E19] = 4 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [G19] = 4 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A20] = 'Potencial sucessor em desenvolvimento' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B20] = 0 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C20] = 'Identificar' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E20] = 'Envolver' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [G20] = 'Cobrir 1 ausência' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A21] = 'Avaliação técnica da equipe' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B21] = '—' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C21] = '—' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E21] = '1ª ficha' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [G21] = 'Atualizar' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A22] = 'Nota feedback anônimo do time (1-5)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B22] = '—' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C22] = '—' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E22] = 'Coletar 1ª' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [G22] = 'Comparar' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A23] = 'Situações Pause & Reframe por semana' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B23] = 0 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C23] = 3 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E23] = 3 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [G23] = 3 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A24] = 'Ações do PDI concluídas (acumulado)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B24] = '0/20' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [C24] = '7/20' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E24] = '14/20' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [G24] = '18/20' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A26] = 'FEEDBACK ANÔNIMO DO TIME (COLETAS BIMESTRAIS)' | fill=none | bold=True | fontSize=12.0 | fontColor=0000796B | alignH=None | alignV=None | wrap=None
+  [A27] = 'Pergunta' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [B27] = '1ª Coleta (Mês 2)\nNota 1-5' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [C27] = 'Comentários' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [D27] = '2ª Coleta (Mês 4)\nNota 1-5' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [E27] = 'Comentários' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [F27] = 'Evolução' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [A28] = 'Como você avalia a comunicação do Elias com você?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A29] = 'Você sente que o Elias ouve sua opinião?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A30] = 'O Elias tem dado espaço para você executar e aprender?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A31] = 'Como você se sente nas interações com o Elias?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A32] = 'O Elias tem ajudado no seu desenvolvimento profissional?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A33] = 'Elias conduz bem as reuniões de produção?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A34] = 'Elias dá direcionamento técnico claro?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A35] = 'Você sabe a quem recorrer para questões técnicas?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A36] = 'Nota geral para a liderança do Elias (1 a 5)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A38] = 'RESUMO EXECUTIVO — RESULTADO DO CICLO' | fill=none | bold=True | fontSize=12.0 | fontColor=0000796B | alignH=None | alignV=None | wrap=None
+  [A39] = 'Principais conquistas:' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A40] = 'Competências com maior evolução:' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A41] = 'Competências que precisam de mais tempo:' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A42] = 'Impacto percebido na equipe:' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A43] = 'Impacto na operação (diagnósticos, planilha, reuniões):' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A44] = 'Percepção de Caio sobre autonomia de Elias:' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A45] = 'Evolução do potencial sucessor:' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A46] = 'Recomendações para o próximo ciclo:' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A47] = 'Nota geral do PDI (consultor):' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+
+================================================================================
+ABA: Checkpoints
+================================================================================
+Dimensões: A1:G58
+Merges: [<MergedCellRange C49:G49>, <MergedCellRange C30:G30>, <MergedCellRange C34:G34>, <MergedCellRange C58:G58>, <MergedCellRange C15:G15>, <MergedCellRange C33:G33>, <MergedCellRange C14:G14>, <MergedCellRange C29:G29>, <MergedCellRange C35:G35>, <MergedCellRange C20:G20>, <MergedCellRange C10:G10>, <MergedCellRange C16:G16>, <MergedCellRange C47:G47>, <MergedCellRange C54:G54>, <MergedCellRange C50:G50>, <MergedCellRange C55:G55>, <MergedCellRange C31:G31>, <MergedCellRange C40:G40>, <MergedCellRange C9:G9>, <MergedCellRange C56:G56>, <MergedCellRange C21:G21>, <MergedCellRange A1:G1>, <MergedCellRange C12:G12>, <MergedCellRange C46:G46>, <MergedCellRange C11:G11>, <MergedCellRange C51:G51>, <MergedCellRange C27:G27>, <MergedCellRange C36:G36>, <MergedCellRange C39:G39>, <MergedCellRange C8:G8>, <MergedCellRange C52:G52>, <MergedCellRange C48:G48>, <MergedCellRange C17:G17>, <MergedCellRange C7:G7>, <MergedCellRange C32:G32>, <MergedCellRange A3:G3>, <MergedCellRange C38:G38>, <MergedCellRange C28:G28>, <MergedCellRange C19:G19>, <MergedCellRange C37:G37>, <MergedCellRange C57:G57>, <MergedCellRange C53:G53>, <MergedCellRange C13:G13>, <MergedCellRange C18:G18>, <MergedCellRange A42:G42>, <MergedCellRange A23:G23>]
+
+--- Larguras das Colunas ---
+  Col A width: 8.0
+  Col B width: 55.0
+  Col C width: 25.0
+  Col D width: 15.0
+  Col E width: 15.0
+  Col F width: 15.0
+  Col G width: 15.0
+
+--- Alturas das Linhas ---
+  Row 7 height: 30.0
+  Row 8 height: 30.0
+  Row 9 height: 30.0
+  Row 10 height: 30.0
+  Row 11 height: 30.0
+  Row 12 height: 30.0
+  Row 13 height: 30.0
+  Row 14 height: 30.0
+  Row 15 height: 30.0
+  Row 16 height: 30.0
+  Row 17 height: 30.0
+  Row 18 height: 30.0
+  Row 19 height: 30.0
+  Row 20 height: 30.0
+  Row 21 height: 30.0
+  Row 27 height: 30.0
+  Row 28 height: 30.0
+  Row 29 height: 30.0
+  Row 30 height: 30.0
+  Row 31 height: 30.0
+  Row 32 height: 30.0
+  Row 33 height: 30.0
+  Row 34 height: 30.0
+  Row 35 height: 30.0
+  Row 36 height: 30.0
+  Row 37 height: 30.0
+  Row 38 height: 30.0
+  Row 39 height: 30.0
+  Row 40 height: 30.0
+  Row 46 height: 30.0
+  Row 47 height: 30.0
+  Row 48 height: 30.0
+  Row 49 height: 30.0
+  Row 50 height: 30.0
+  Row 51 height: 30.0
+  Row 52 height: 30.0
+  Row 53 height: 30.0
+  Row 54 height: 30.0
+  Row 55 height: 30.0
+  Row 56 height: 30.0
+  Row 57 height: 30.0
+  Row 58 height: 30.0
+
+--- Conteúdo Célula por Célula ---
+  [A1] = 'CHECKPOINTS MENSAIS — REGISTRO DE SESSÕES (v2)' | fill=none | bold=True | fontSize=14.0 | fontColor=000097A7 | alignH=center | alignV=center | wrap=True
+  [A3] = 'CHECKPOINT MÊS 1 — Fim de Março/2026' | fill=00E0F2F1 | bold=True | fontSize=12.0 | fontColor=0000796B | alignH=None | alignV=None | wrap=None
+  [A4] = 'Participantes:' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B4] = 'Eleine + Elias + Caio' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A5] = 'Data realizada:' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B5] = '___/___/______' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A6] = '#' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [B6] = 'Pergunta / Item' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [C6] = 'Resposta / Evidência' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [A7] = 1 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B7] = 'Elias leu o material DISC completo?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A8] = 2 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B8] = 'Quantas reuniões individuais realizou?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A9] = 3 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B9] = 'Elias está conduzindo as reuniões diárias de produção? Como está a qualidade?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A10] = 4 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B10] = 'Sabatinas: quantas fez? Como foi a participação do time?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A11] = 5 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B11] = "Diário 'Quase Meti a Mão': quantos episódios registrados?" | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A12] = 6 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B12] = 'Regra dos 10 segundos: conseguiu praticar?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A13] = 7 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B13] = 'Elias está revisando e assinando os relatórios diários?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A14] = 8 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B14] = 'Planilha de serviços: está atualizando? Usa para tomada de decisão?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A15] = 9 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B15] = 'Trocas com Caio: quantas? Foram úteis?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A16] = 10 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B16] = 'Mapa de energia: iniciou o registro?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A17] = 11 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B17] = 'Sessão Líder Multiplicador realizada?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A18] = 12 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B18] = 'Foco no diagnóstico: Elias está direcionando sem executar?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A19] = 13 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B19] = 'Nível de energia e motivação de Elias (auto-avaliação 1-5):' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A20] = 14 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B20] = 'Percepção de Caio: Elias está assumindo o papel? O que falta?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A21] = 15 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B21] = 'Ajustes necessários no PDI:' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A23] = 'CHECKPOINT MÊS 2 — Fim de Abril/2026' | fill=00E0F2F1 | bold=True | fontSize=12.0 | fontColor=0000796B | alignH=None | alignV=None | wrap=None
+  [A24] = 'Participantes:' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B24] = 'Eleine + Elias + Caio' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A25] = 'Data realizada:' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B25] = '___/___/______' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A26] = '#' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [B26] = 'Pergunta / Item' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [C26] = 'Resposta / Evidência' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [A27] = 1 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B27] = 'Mapa de perfis do time está completo?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A28] = 2 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B28] = 'Elias está adaptando a comunicação por perfil?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A29] = 3 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B29] = 'Condução de reuniões: evolução da qualidade e do engajamento do time?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A30] = 4 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B30] = 'Sabatinas: evolução da participação do time?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A31] = 5 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B31] = 'Delegação com ensino: 3/semana sendo feitas?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A32] = 6 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B32] = "Diário: houve redução dos episódios de 'meter a mão'?" | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A33] = 7 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B33] = 'Avaliação técnica e comportamental: Elias preencheu a ficha dos 7?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A34] = 8 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B34] = 'Potencial sucessor identificado? Quem? Já envolveu em diagnósticos?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A35] = 9 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B35] = '1ª coleta de feedback anônimo do time realizada?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A36] = 10 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B36] = 'Resultado da 1ª coleta (resumo):' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A37] = 11 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B37] = 'Planilha: Elias está fazendo análise ou apenas preenchendo?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A38] = 12 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B38] = 'Percepção de Caio: Elias está aliviando a carga dele? Em que medida?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A39] = 13 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B39] = 'Leitura Goleman: iniciou?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A40] = 14 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B40] = 'Ajustes necessários no PDI:' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A42] = 'CHECKPOINT MÊS 3 — Fim de Maio/2026' | fill=00E0F2F1 | bold=True | fontSize=12.0 | fontColor=0000796B | alignH=None | alignV=None | wrap=None
+  [A43] = 'Participantes:' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B43] = 'Eleine + Elias + Caio' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A44] = 'Data realizada:' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [B44] = '___/___/______' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A45] = '#' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [B45] = 'Pergunta / Item' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [C45] = 'Resposta / Evidência' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [A46] = 1 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B46] = 'Evolução geral nas 4 competências (nota 1-5 cada):' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A47] = 2 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B47] = 'Mapa de energia: padrões identificados? Ajustes feitos?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A48] = 3 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B48] = 'Sabatinas: o time está mais engajado? Traz soluções sozinho?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A49] = 4 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B49] = 'Delegação: Elias conseguiu soltar tarefas operacionais?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A50] = 5 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B50] = 'Gestão técnica: relatórios, planilha, diagnósticos — está consolidado?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A51] = 6 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B51] = 'Sucessor: pessoa está evoluindo? Cobriu alguma ausência de Elias?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A52] = 7 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B52] = 'Pause & Reframe: está usando? Exemplos?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A53] = 8 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B53] = 'Trocas com Caio: estão acontecendo semanalmente?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A54] = 9 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B54] = 'Leitura concluída? Insights aplicados?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A55] = 10 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B55] = 'Percepção geral da equipe (informal):' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A56] = 11 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B56] = 'Caio sente que está com mais liberdade para focar em comercial/gestão?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A57] = 12 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B57] = 'O que funcionou melhor até agora?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+  [A58] = 13 | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [B58] = 'O que precisa mudar para os próximos 3 meses?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=top | wrap=True
+
+================================================================================
+ABA: Semáforo
+================================================================================
+Dimensões: A1:F26
+Merges: [<MergedCellRange A2:F2>, <MergedCellRange B24:F24>, <MergedCellRange A1:F1>, <MergedCellRange B25:F25>, <MergedCellRange B26:F26>]
+
+--- Larguras das Colunas ---
+  Col A width: 22.0
+  Col B width: 40.0
+  Col C width: 18.0
+  Col D width: 15.0
+  Col E width: 15.0
+  Col F width: 15.0
+
+--- Alturas das Linhas ---
+
+--- Conteúdo Célula por Célula ---
+  [A1] = 'SEMÁFORO DE PROGRESSO — VISÃO EXECUTIVA (v2)' | fill=none | bold=True | fontSize=14.0 | fontColor=000097A7 | alignH=center | alignV=center | wrap=True
+  [A2] = 'Verde = No caminho | Amarelo = Atenção | Vermelho = Intervenção necessária' | fill=none | bold=False | fontSize=10.0 | fontColor=00757575 | alignH=center | alignV=center | wrap=True
+  [A4] = 'Dimensão' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [B4] = 'Indicador-Chave' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [C4] = 'Meta' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [D4] = 'Mês 1' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [E4] = 'Mês 2' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [F4] = 'Mês 3' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [A5] = 'Escuta Ativa' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B5] = 'Reuniões individuais realizadas' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C5] = '7/mês' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A6] = 'Escuta Ativa' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B6] = 'Condução de reuniões de produção' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C6] = 'Diário' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A7] = 'Escuta Ativa' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B7] = 'Time se sente ouvido (feedback)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C7] = '≥ 3,5/5' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A8] = 'Transição Líder' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B8] = 'Sabatinas realizadas' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C8] = '4/mês' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A9] = 'Transição Líder' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B9] = 'Tarefas operacionais delegadas' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C9] = '≥ 2 novas/mês' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A10] = 'Transição Líder' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B10] = 'Diagnósticos feitos sem executar' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C10] = '80%+ dos casos' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A11] = 'Transição Líder' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B11] = "Episódios 'mão na massa' (↓)" | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C11] = 'Reduzir 50%' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A12] = 'Gestão Técnica' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B12] = 'Relatórios diários revisados/assinados' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C12] = '100%' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A13] = 'Gestão Técnica' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B13] = 'Planilha de serviços atualizada' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C13] = 'Diário' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A14] = 'Gestão Técnica' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B14] = 'Avaliação técnica da equipe preenchida' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C14] = 'Sim/Não' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A15] = 'Gestão Técnica' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B15] = 'Sucessor em desenvolvimento' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C15] = '1 pessoa ativa' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A16] = 'Intelig. Emocional' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B16] = 'Situações Pause & Reframe' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C16] = '3/semana' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A17] = 'Intelig. Emocional' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B17] = 'Nota do time sobre clima' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C17] = '≥ 3,5/5' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A18] = 'Geral' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B18] = 'Ações do PDI concluídas' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C18] = '90%+' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A19] = 'Geral' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B19] = 'Trocas com Caio realizadas' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C19] = '4/mês' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A20] = 'Geral' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B20] = 'Energia/motivação Elias (1-5)' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C20] = '≥ 4' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A21] = 'Geral' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B21] = 'Caio sente alívio operacional?' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C21] = 'Sim' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [A23] = 'LEGENDA:' | fill=none | bold=True | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A24] = 'VERDE' | fill=0043A047 | bold=True | fontSize=10.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [B24] = '70%+ das ações concluídas, indicadores no caminho, time reporta evolução, Caio percebe alívio operacional' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A25] = 'AMARELO' | fill=00FFC107 | bold=True | fontSize=10.0 | fontColor=00424242 | alignH=center | alignV=center | wrap=True
+  [B25] = '40-69% das ações, alguns indicadores atrasados, 1 checkpoint com pendências, Elias ainda executa mais que diagnostica' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+  [A26] = 'VERMELHO' | fill=00E53935 | bold=True | fontSize=10.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [B26] = '<40% das ações, indicadores estagnados, time não percebe mudança, energia caindo, sem avanço na formação de sucessor' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=None | alignV=None | wrap=None
+
+================================================================================
+ABA: Competências Referência
+================================================================================
+Dimensões: A1:E26
+Merges: [<MergedCellRange A2:E2>, <MergedCellRange A1:E1>]
+
+--- Larguras das Colunas ---
+  Col A width: 22.0
+  Col B width: 32.0
+  Col C width: 55.0
+  Col D width: 22.0
+  Col E width: 20.0
+
+--- Alturas das Linhas ---
+
+--- Conteúdo Célula por Célula ---
+  [A1] = 'MAPEAMENTO DE COMPETÊNCIAS — BASE PARA AVALIAÇÃO' | fill=none | bold=True | fontSize=14.0 | fontColor=000097A7 | alignH=center | alignV=center | wrap=True
+  [A2] = 'Fonte: Planilha 190 Exemplos de Competências para Avaliação de Desempenho + Contexto Polidiesel' | fill=none | bold=False | fontSize=10.0 | fontColor=00757575 | alignH=center | alignV=center | wrap=True
+  [A4] = 'Categoria' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [B4] = 'Competência' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [C4] = 'Relevância para Elias' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [D4] = 'Nível Atual Estimado (1-5)' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [E4] = 'Prioridade no PDI' | fill=000097A7 | bold=True | fontSize=11.0 | fontColor=00FFFFFF | alignH=center | alignV=center | wrap=True
+  [A5] = 'Gestão de Pessoas' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B5] = 'Coaching e Mentoria' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C5] = 'CRÍTICA — precisa formar sucessor e desenvolver o time' | fill=none | bold=True | fontSize=10.0 | fontColor=00E53935 | alignH=left | alignV=center | wrap=True
+  [D5] = 1 | fill=00FFEBEE | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E5] = 'Competência 3' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A6] = 'Gestão de Pessoas' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B6] = 'Gerenciamento de Desempenho' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C6] = 'ALTA — avaliar mecânicos tecnicamente e por postura' | fill=none | bold=True | fontSize=10.0 | fontColor=00F57C00 | alignH=left | alignV=center | wrap=True
+  [D6] = 1 | fill=00FFEBEE | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E6] = 'Competência 3' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A7] = 'Gestão de Pessoas' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B7] = 'Trabalho em Equipe' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C7] = 'ALTA — transitar de executor para facilitador do time' | fill=none | bold=True | fontSize=10.0 | fontColor=00F57C00 | alignH=left | alignV=center | wrap=True
+  [D7] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E7] = 'Competência 2' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A8] = 'Gestão de Pessoas' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B8] = 'Treinamento e Desenvolvimento' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C8] = 'MÉDIA — compartilhar conhecimento técnico com a equipe' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D8] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E8] = 'Competência 3' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A9] = 'Gestão de Pessoas' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B9] = 'Adaptabilidade e Flexibilidade' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C9] = 'ALTA — IF=-4,76, transição de papel exige flexibilidade' | fill=none | bold=True | fontSize=10.0 | fontColor=00F57C00 | alignH=left | alignV=center | wrap=True
+  [D9] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E9] = 'Competências 2 e 4' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A10] = 'Comunicação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B10] = 'Habilidades de Escuta' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C10] = "CRÍTICA — DISC mostra 'Capacidade de Ouvir' muito baixa" | fill=none | bold=True | fontSize=10.0 | fontColor=00E53935 | alignH=left | alignV=center | wrap=True
+  [D10] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E10] = 'Competência 1' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A11] = 'Comunicação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B11] = 'Habilidades de Fala' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C11] = "MÉDIA — Elias é 'de poucas palavras' (Caio no kick-off)" | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D11] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E11] = 'Competência 1' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A12] = 'Comunicação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B12] = 'Técnicas de Negociação' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C12] = 'MÉDIA — intermediar recepção ↔ área técnica com clientes' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D12] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E12] = 'Competência 1' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A13] = 'Liderança' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B13] = 'Gestão Estratégica' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C13] = 'ALTA — visão do quadro geral, não apenas execução' | fill=none | bold=True | fontSize=10.0 | fontColor=00F57C00 | alignH=left | alignV=center | wrap=True
+  [D13] = 1 | fill=00FFEBEE | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E13] = 'Competência 2' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A14] = 'Liderança' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B14] = 'Responsabilidade e Confiabilidade' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C14] = 'ALTA — já possui (Caio nota 10/10), manter e formalizar' | fill=none | bold=True | fontSize=10.0 | fontColor=00F57C00 | alignH=left | alignV=center | wrap=True
+  [D14] = 4 | fill=00E8F5E9 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E14] = 'Ativo existente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A15] = 'Liderança' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B15] = 'Persuasão e Influência' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C15] = 'MÉDIA — time ainda o vê como par, precisa construir autoridade' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D15] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E15] = 'Competência 2' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A16] = 'Desenvolvimento Pessoal' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B16] = 'Potencial de Crescimento' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C16] = 'ALTA — Caio vê 9/10 de potencial' | fill=none | bold=True | fontSize=10.0 | fontColor=00F57C00 | alignH=left | alignV=center | wrap=True
+  [D16] = 3 | fill=00FFF3E0 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E16] = 'Ativo existente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A17] = 'Desenvolvimento Pessoal' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B17] = 'Mudança de Liderança' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C17] = 'CRÍTICA — lidar com impactos da transição no time' | fill=none | bold=True | fontSize=10.0 | fontColor=00E53935 | alignH=left | alignV=center | wrap=True
+  [D17] = 1 | fill=00FFEBEE | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E17] = 'Competência 2' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A18] = 'Desenvolvimento Pessoal' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B18] = 'Foco nos Resultados' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C18] = 'ALTA — já possui (perfil Executor), direcionar para gestão' | fill=none | bold=True | fontSize=10.0 | fontColor=00F57C00 | alignH=left | alignV=center | wrap=True
+  [D18] = 4 | fill=00E8F5E9 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E18] = 'Ativo existente' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A19] = 'Raciocínio Lógico' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B19] = 'Tomada de Decisões' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C19] = 'ALTA — papel de diagnóstico e direcionamento técnico' | fill=none | bold=True | fontSize=10.0 | fontColor=00F57C00 | alignH=left | alignV=center | wrap=True
+  [D19] = 3 | fill=00FFF3E0 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E19] = 'Competência 3' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A20] = 'Raciocínio Lógico' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B20] = 'Resolução de Problemas' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C20] = 'ALTA — ponto focal técnico, resolver sem executar' | fill=none | bold=True | fontSize=10.0 | fontColor=00F57C00 | alignH=left | alignV=center | wrap=True
+  [D20] = 3 | fill=00FFF3E0 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E20] = 'Competência 2' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A21] = 'Raciocínio Lógico' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B21] = 'Abordagem Metódica' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C21] = 'MÉDIA — uso de planilha, relatórios, gestão organizada' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D21] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E21] = 'Competência 3' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A22] = 'Comportamental' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B22] = 'Empatia' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C22] = 'CRÍTICA — DISC mostra empatia muito baixa' | fill=none | bold=True | fontSize=10.0 | fontColor=00E53935 | alignH=left | alignV=center | wrap=True
+  [D22] = 1 | fill=00FFEBEE | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E22] = 'Competência 4' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A23] = 'Comportamental' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B23] = 'Habilidades Interpessoais' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C23] = 'ALTA — construir relações de liderança, não só de execução' | fill=none | bold=True | fontSize=10.0 | fontColor=00F57C00 | alignH=left | alignV=center | wrap=True
+  [D23] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E23] = 'Competências 1 e 4' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A24] = 'Comportamental' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B24] = 'Gestão do Tempo' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C24] = 'MÉDIA — equilibrar novo papel administrativo com operacional residual' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D24] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E24] = 'Competência 2' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A25] = 'Competências Técnicas' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B25] = 'Conhecimento de Informática' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C25] = 'MÉDIA — planilha, possível uso de tablet no futuro' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [D25] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E25] = 'Competência 3' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [A26] = 'Transferível' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [B26] = 'Planejamento e Organização' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=left | alignV=center | wrap=True
+  [C26] = 'ALTA — gestão diária, alocação de recursos, priorização' | fill=none | bold=True | fontSize=10.0 | fontColor=00F57C00 | alignH=left | alignV=center | wrap=True
+  [D26] = 2 | fill=00FFFDE7 | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True
+  [E26] = 'Competência 3' | fill=none | bold=False | fontSize=10.0 | fontColor=none | alignH=center | alignV=center | wrap=True

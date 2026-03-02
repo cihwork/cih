@@ -1,0 +1,9 @@
+.session/
+.mcp/
+.mcp.json
+.ftp
+.DS_Store
+*.tmp
+node_modules/
+__pycache__/
+.env

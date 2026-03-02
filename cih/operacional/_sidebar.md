@@ -1,0 +1,27 @@
+- **Início**
+  - [Visão Geral](/)
+  - [Aprendizados CIH](/aprendizados-cih)
+
+- **Planejamento**
+  - [Proposta Completa](/planejamento/docs/proposta)
+  - **Fase 1 - Contrato**
+    - [Template de Contrato](/planejamento/01-contrato/template-contrato)
+  - **Fase 2 - Planejamento**
+    - [Template de Cronograma](/planejamento/02-planejamento/template-cronograma)
+  - **Fase 3 - Kick-off**
+    - [Apresentação de Kick-off](/planejamento/03-kickoff/template-apresentacao-kickoff)
+    - [Ata de Reunião](/planejamento/03-kickoff/template-ata-reuniao)
+  - **Fase 4 - DISC**
+    - [Guia de Perfis DISC](/planejamento/04-disc/guia-perfis-disc)
+    - [Relatório de Análise](/planejamento/04-disc/template-analise-disc)
+  - **Fase 5 - PDI**
+    - [Plano de Desenvolvimento](/planejamento/05-pdi/template-pdi)
+  - **Fase 6 - Acompanhamento**
+    - [Acompanhamento Agentivo](/planejamento/06-acompanhamento/template-acompanhamento)
+    - [Apresentação de Resultados](/planejamento/06-acompanhamento/template-apresentacao-resultados)
+
+- **Execução**
+  - **Polidiesel**
+    - [Elias Fernandes - Análise DISC](/execução/polidiesel/elias-fernandes/analise-disc)
+    - [Elias Fernandes - PDI](/execução/polidiesel/elias-fernandes/pdi)
+    - [Elias Fernandes - Plano de Ação PDI](/execução/polidiesel/elias-fernandes/planodeacaopdi)

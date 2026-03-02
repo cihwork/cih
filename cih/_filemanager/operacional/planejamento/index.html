@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CIH - Gerenciador de Arquivos</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5; color: #1a1a2e; min-height: 100vh;
+}
+.header {
+  background: linear-gradient(135deg, #0097A7 0%, #00796B 100%);
+  color: #fff; padding: 20px 32px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+.header h1 { font-size: 1.5rem; font-weight: 600; }
+.header .subtitle { font-size: 0.85rem; opacity: 0.7; margin-top: 4px; }
+.breadcrumb {
+  background: #fff; padding: 12px 32px; border-bottom: 1px solid #e0e0e0;
+  display: flex; align-items: center; flex-wrap: wrap; gap: 4px; font-size: 0.9rem;
+}
+.breadcrumb a { color: #00796B; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: background 0.2s; }
+.breadcrumb a:hover { background: #E0F2F1; }
+.breadcrumb .sep { color: #999; margin: 0 2px; }
+.toolbar { padding: 16px 32px; display: flex; align-items: center; gap: 12px; }
+.btn-up {
+  display: inline-flex; align-items: center; gap: 6px; padding: 8px 18px;
+  background: #fff; border: 1px solid #d0d0d0; border-radius: 6px;
+  color: #333; text-decoration: none; font-size: 0.88rem; font-weight: 500;
+  transition: all 0.2s; cursor: pointer;
+}
+.btn-up:hover { background: #E0F2F1; border-color: #0097A7; color: #0097A7; }
+.btn-up.disabled { opacity: 0.4; pointer-events: none; }
+.info-bar { padding: 0 32px 8px; font-size: 0.82rem; color: #888; }
+.container { padding: 0 32px 32px; }
+table {
+  width: 100%; border-collapse: collapse; background: #fff;
+  border-radius: 10px; overflow: hidden; box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+}
+thead th {
+  background: #f8f9fa; padding: 14px 16px; text-align: left;
+  font-weight: 600; font-size: 0.82rem; text-transform: uppercase;
+  letter-spacing: 0.5px; color: #666; border-bottom: 2px solid #e8e8e8;
+}
+thead th:first-child { padding-left: 24px; }
+tbody tr { transition: background 0.15s; }
+tbody tr:hover { background: #E0F2F1; }
+tbody td { padding: 12px 16px; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; }
+tbody td:first-child { padding-left: 24px; }
+tbody tr:last-child td { border-bottom: none; }
+.name-cell { display: flex; align-items: center; gap: 10px; }
+.name-cell a { color: #1a1a2e; text-decoration: none; font-weight: 500; transition: color 0.2s; }
+.name-cell a:hover { color: #0097A7; }
+.icon {
+  width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;
+  border-radius: 6px; font-size: 1.1rem; flex-shrink: 0;
+}
+.icon-folder { background: #FFF3E0; color: #F57C00; }
+.icon-file { background: #E3F2FD; color: #1976D2; }
+.icon-image { background: #FCE4EC; color: #E91E63; }
+.icon-pdf { background: #FFEBEE; color: #D32F2F; }
+.icon-code { background: #E8F5E9; color: #388E3C; }
+.icon-doc { background: #E8EAF6; color: #3F51B5; }
+.icon-archive { background: #FFF8E1; color: #F9A825; }
+.icon-xlsx { background: #E8F5E9; color: #2E7D32; }
+.size-cell { color: #888; white-space: nowrap; }
+.date-cell { color: #888; white-space: nowrap; }
+.empty-msg { text-align: center; padding: 48px 16px; color: #aaa; font-size: 1rem; }
+@media (max-width: 768px) {
+  .header, .breadcrumb, .toolbar, .info-bar, .container { padding-left: 16px; padding-right: 16px; }
+  .date-cell, thead th:last-child { display: none; }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>📂 CIH - Gerenciador de Arquivos</h1>
+  <div class="subtitle">Navegador de arquivos do workspace</div>
+</div>
+<div class="breadcrumb"><a href="/index.html">🏠 cih</a><span class="sep">/</span><a href="/operacional/index.html">operacional</a><span class="sep">/</span><a href="/operacional/planejamento/index.html">planejamento</a></div>
+<div class="toolbar"><a class="btn-up" href="/operacional/index.html">⬆ Voltar</a></div>
+<div class="info-bar">7 pastas</div>
+<div class="container">
+<table>
+  <thead><tr><th>Nome</th><th>Tamanho</th><th>Data de Modificação</th></tr></thead>
+  <tbody>
+<tr><td><div class="name-cell"><span class="icon icon-folder">📁</span><a href="/operacional/planejamento/01-contrato/index.html">01-contrato</a></div></td><td class="size-cell">&mdash;</td><td class="date-cell">24/02/2026 10:46</td></tr>
+<tr><td><div class="name-cell"><span class="icon icon-folder">📁</span><a href="/operacional/planejamento/02-planejamento/index.html">02-planejamento</a></div></td><td class="size-cell">&mdash;</td><td class="date-cell">24/02/2026 10:46</td></tr>
+<tr><td><div class="name-cell"><span class="icon icon-folder">📁</span><a href="/operacional/planejamento/03-kickoff/index.html">03-kickoff</a></div></td><td class="size-cell">&mdash;</td><td class="date-cell">24/02/2026 10:47</td></tr>
+<tr><td><div class="name-cell"><span class="icon icon-folder">📁</span><a href="/operacional/planejamento/04-disc/index.html">04-disc</a></div></td><td class="size-cell">&mdash;</td><td class="date-cell">24/02/2026 10:50</td></tr>
+<tr><td><div class="name-cell"><span class="icon icon-folder">📁</span><a href="/operacional/planejamento/05-pdi/index.html">05-pdi</a></div></td><td class="size-cell">&mdash;</td><td class="date-cell">24/02/2026 10:50</td></tr>
+<tr><td><div class="name-cell"><span class="icon icon-folder">📁</span><a href="/operacional/planejamento/06-acompanhamento/index.html">06-acompanhamento</a></div></td><td class="size-cell">&mdash;</td><td class="date-cell">24/02/2026 10:51</td></tr>
+<tr><td><div class="name-cell"><span class="icon icon-folder">📁</span><a href="/operacional/planejamento/docs/index.html">docs</a></div></td><td class="size-cell">&mdash;</td><td class="date-cell">24/02/2026 10:46</td></tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>

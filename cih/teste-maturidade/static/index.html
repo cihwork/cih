@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teste de Maturidade Organizacional | CIH</title>
+<style>
+:root {
+  --cih-dark: #0a1628;
+  --cih-blue: #0097a7;
+  --cih-cyan: #00bcd4;
+  --cih-light: #e0f7fa;
+  --cih-white: #ffffff;
+  --cih-gray: #f5f7fa;
+  --cih-text: #263238;
+  --cih-muted: #607d8b;
+  --nivel-1: #e53935;
+  --nivel-2: #fb8c00;
+  --nivel-3: #fdd835;
+  --nivel-4: #43a047;
+  --nivel-5: #1565c0;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--cih-gray); color: var(--cih-text); min-height:100vh; }
+
+.header {
+  background: linear-gradient(135deg, var(--cih-dark) 0%, #0d2137 100%);
+  padding: 24px 0;
+  text-align: center;
+  position: sticky; top: 0; z-index: 100;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+}
+.header h1 { color: var(--cih-white); font-size: 1.1rem; font-weight: 400; letter-spacing: 2px; text-transform: uppercase; }
+.header .brand { display: flex; align-items: center; justify-content: center; gap: 12px; margin-bottom: 8px; }
+.header .logo-text { font-size: 2rem; font-weight: 800; color: var(--cih-cyan); letter-spacing: 3px; }
+.header .logo-sub { font-size: 0.7rem; color: var(--cih-muted); letter-spacing: 4px; text-transform: uppercase; }
+
+.container { max-width: 800px; margin: 0 auto; padding: 24px 16px; }
+
+/* TELA INICIAL */
+.intro { text-align: center; padding: 40px 20px; }
+.intro h2 { font-size: 1.8rem; color: var(--cih-dark); margin-bottom: 16px; }
+.intro p { color: var(--cih-muted); font-size: 1rem; line-height: 1.7; max-width: 600px; margin: 0 auto 32px; }
+
+.info-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 40px; }
+.info-card { background: white; border-radius: 12px; padding: 20px; text-align: left; border-left: 4px solid var(--cih-cyan); box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.info-card h4 { color: var(--cih-blue); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+.info-card p { font-size: 0.9rem; color: var(--cih-text); line-height: 1.5; }
+
+.escala { background: white; border-radius: 12px; padding: 24px; margin-bottom: 32px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.escala h3 { font-size: 1rem; margin-bottom: 16px; color: var(--cih-dark); }
+.escala-items { display: flex; flex-direction: column; gap: 8px; }
+.escala-item { display: flex; align-items: center; gap: 12px; font-size: 0.85rem; }
+.escala-dot { width: 14px; height: 14px; border-radius: 50%; flex-shrink: 0; }
+
+.form-group { margin-bottom: 20px; }
+.form-group label { display: block; font-weight: 600; margin-bottom: 6px; font-size: 0.9rem; color: var(--cih-dark); }
+.form-group input { width: 100%; padding: 14px 16px; border: 2px solid #e0e0e0; border-radius: 10px; font-size: 1rem; transition: border-color 0.3s; background: white; }
+.form-group input:focus { outline: none; border-color: var(--cih-cyan); }
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--cih-blue), var(--cih-cyan));
+  color: white; border: none; padding: 16px 48px; font-size: 1.1rem; font-weight: 600;
+  border-radius: 12px; cursor: pointer; transition: all 0.3s; display: inline-block;
+}
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,151,167,0.4); }
+.btn-primary:disabled { opacity: 0.5; cursor: not-allowed; transform: none; box-shadow: none; }
+
+/* QUESTIONÁRIO */
+.quiz-section { display: none; }
+
+.progress-bar-wrap { background: #e0e0e0; border-radius: 20px; height: 8px; margin-bottom: 8px; overflow: hidden; }
+.progress-bar-fill { height: 100%; background: linear-gradient(90deg, var(--cih-blue), var(--cih-cyan)); border-radius: 20px; transition: width 0.5s ease; }
+.progress-text { text-align: center; font-size: 0.8rem; color: var(--cih-muted); margin-bottom: 24px; }
+
+.sessao-header {
+  background: linear-gradient(135deg, var(--cih-dark), #0d2137);
+  color: white; padding: 20px 24px; border-radius: 14px; margin-bottom: 20px;
+}
+.sessao-header .sessao-num { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: var(--cih-cyan); margin-bottom: 4px; }
+.sessao-header h3 { font-size: 1.3rem; font-weight: 600; }
+
+.pergunta-card {
+  background: white; border-radius: 14px; padding: 24px; margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+.pergunta-card.answered { border-color: var(--cih-cyan); }
+.pergunta-card h4 { font-size: 0.95rem; color: var(--cih-dark); margin-bottom: 16px; line-height: 1.5; }
+.pergunta-card .q-num { color: var(--cih-blue); font-weight: 700; }
+
+.opcao {
+  display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px;
+  border: 2px solid #eee; border-radius: 10px; margin-bottom: 8px;
+  cursor: pointer; transition: all 0.2s; font-size: 0.9rem; line-height: 1.5;
+}
+.opcao:hover { border-color: var(--cih-cyan); background: var(--cih-light); }
+.opcao.selected { border-color: var(--cih-blue); background: var(--cih-light); }
+.opcao input { display: none; }
+.opcao .radio-custom {
+  width: 22px; height: 22px; border-radius: 50%; border: 2px solid #ccc;
+  flex-shrink: 0; margin-top: 1px; display: flex; align-items: center; justify-content: center;
+  transition: all 0.2s;
+}
+.opcao.selected .radio-custom { border-color: var(--cih-blue); background: var(--cih-blue); }
+.opcao.selected .radio-custom::after { content: ''; width: 8px; height: 8px; border-radius: 50%; background: white; }
+.opcao .valor { color: var(--cih-muted); font-size: 0.75rem; font-weight: 600; min-width: 20px; }
+
+.nav-buttons { display: flex; justify-content: space-between; gap: 12px; margin-top: 24px; }
+.btn-nav {
+  padding: 14px 32px; border-radius: 10px; font-size: 0.95rem; font-weight: 600;
+  cursor: pointer; transition: all 0.3s; border: 2px solid var(--cih-blue);
+}
+.btn-back { background: white; color: var(--cih-blue); }
+.btn-back:hover { background: var(--cih-light); }
+.btn-next { background: var(--cih-blue); color: white; border-color: var(--cih-blue); }
+.btn-next:hover { background: var(--cih-cyan); border-color: var(--cih-cyan); }
+.btn-next:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.btn-submit {
+  background: linear-gradient(135deg, var(--cih-blue), var(--cih-cyan));
+  color: white; border: none; padding: 18px 48px; font-size: 1.1rem; font-weight: 700;
+  border-radius: 12px; cursor: pointer; transition: all 0.3s; width: 100%;
+}
+.btn-submit:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,151,167,0.4); }
+.btn-submit:disabled { opacity: 0.4; cursor: not-allowed; transform: none; box-shadow: none; }
+
+/* TELA TOKEN */
+.token-screen { display: none; text-align: center; padding: 60px 20px; }
+.token-icon { font-size: 4rem; margin-bottom: 16px; }
+.token-screen h2 { font-size: 1.6rem; color: var(--cih-dark); margin-bottom: 12px; }
+.token-screen p { color: var(--cih-muted); margin-bottom: 32px; }
+.token-box {
+  background: white; border-radius: 14px; padding: 24px; display: inline-block;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1); margin-bottom: 24px;
+}
+.token-box .label { font-size: 0.8rem; color: var(--cih-muted); text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px; }
+.token-box .token-value { font-size: 2.2rem; font-weight: 800; color: var(--cih-blue); letter-spacing: 4px; font-family: monospace; }
+
+.score-preview { margin: 24px 0; }
+.score-badge {
+  display: inline-flex; align-items: center; gap: 12px;
+  padding: 16px 32px; border-radius: 50px; font-size: 1.1rem; font-weight: 700; color: white;
+}
+
+/* LOOKUP TOKEN */
+.lookup-section { margin-top: 40px; padding-top: 32px; border-top: 2px solid #e0e0e0; }
+.lookup-section h3 { font-size: 1rem; color: var(--cih-dark); margin-bottom: 12px; }
+.lookup-row { display: flex; gap: 8px; max-width: 400px; margin: 0 auto; }
+.lookup-row input { flex: 1; padding: 12px 16px; border: 2px solid #e0e0e0; border-radius: 10px; font-size: 1rem; text-transform: uppercase; letter-spacing: 2px; font-family: monospace; }
+.lookup-row input:focus { outline: none; border-color: var(--cih-cyan); }
+.btn-lookup { padding: 12px 24px; background: var(--cih-dark); color: white; border: none; border-radius: 10px; font-size: 0.9rem; font-weight: 600; cursor: pointer; }
+.btn-lookup:hover { background: #1a2d45; }
+
+.footer { text-align: center; padding: 32px; color: var(--cih-muted); font-size: 0.8rem; }
+.footer a { color: var(--cih-blue); text-decoration: none; }
+
+.loading { display: none; text-align: center; padding: 40px; }
+.spinner { width: 40px; height: 40px; border: 4px solid #e0e0e0; border-top-color: var(--cih-cyan); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 16px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.error-msg { color: var(--nivel-1); font-size: 0.9rem; margin-top: 8px; display: none; }
+
+@media (max-width: 600px) {
+  .header .logo-text { font-size: 1.5rem; }
+  .intro h2 { font-size: 1.4rem; }
+  .container { padding: 16px 12px; }
+  .nav-buttons { flex-direction: column; }
+  .btn-nav { width: 100%; text-align: center; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="brand">
+    <span class="logo-text">CIH</span>
+  </div>
+  <div class="logo-sub">Consultoria Impacto Humano</div>
+  <h1>Teste de Maturidade Organizacional</h1>
+</div>
+
+<div class="container">
+
+  <!-- TELA INICIAL -->
+  <div id="intro-screen" class="intro">
+    <h2>Avalie a Maturidade da Sua Empresa</h2>
+    <p>Este teste fornece uma avaliação detalhada da maturidade organizacional, permitindo diagnósticos precisos e ações estratégicas para crescimento, eficiência e identificação de gaps.</p>
+
+    <div class="info-cards">
+      <div class="info-card">
+        <h4>30 Perguntas</h4>
+        <p>Distribuídas em 6 dimensões estratégicas da organização.</p>
+      </div>
+      <div class="info-card">
+        <h4>6 Dimensões</h4>
+        <p>Estrutura, Governança, Cultura, Pessoas, Inovação e Resultados.</p>
+      </div>
+      <div class="info-card">
+        <h4>Resultado Imediato</h4>
+        <p>Score detalhado por dimensão com plano de ação personalizado.</p>
+      </div>
+    </div>
+
+    <div class="escala">
+      <h3>Classificação do Score Final</h3>
+      <div class="escala-items">
+        <div class="escala-item"><div class="escala-dot" style="background:var(--nivel-1)"></div> <strong>1 - Inicial</strong>&nbsp;— Falta de estrutura e maturidade organizacional</div>
+        <div class="escala-item"><div class="escala-dot" style="background:var(--nivel-2)"></div> <strong>2 - Em Desenvolvimento</strong>&nbsp;— Melhorias sendo implementadas, com inconsistências</div>
+        <div class="escala-item"><div class="escala-dot" style="background:var(--nivel-3)"></div> <strong>3 - Estabelecido</strong>&nbsp;— Governança e processos bem definidos</div>
+        <div class="escala-item"><div class="escala-dot" style="background:var(--nivel-4)"></div> <strong>4 - Avançado</strong>&nbsp;— Alto nível de maturidade e eficiência</div>
+        <div class="escala-item"><div class="escala-dot" style="background:var(--nivel-5)"></div> <strong>5 - Excelência</strong>&nbsp;— Empresa referência no setor</div>
+      </div>
+    </div>
+
+    <div style="background:white; border-radius:14px; padding:32px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); max-width: 500px; margin: 0 auto;">
+      <h3 style="margin-bottom:20px; color: var(--cih-dark);">Vamos Começar</h3>
+      <div class="form-group">
+        <label for="nome">Seu Nome Completo</label>
+        <input type="text" id="nome" placeholder="Ex: João Silva">
+      </div>
+      <div class="form-group">
+        <label for="email">Seu E-mail</label>
+        <input type="email" id="email" placeholder="Ex: joao@empresa.com.br">
+      </div>
+      <div class="form-group">
+        <label for="empresa">Nome da Empresa</label>
+        <input type="text" id="empresa" placeholder="Ex: Empresa XYZ Ltda">
+      </div>
+      <div id="error-start" class="error-msg">Preencha todos os campos: nome, e-mail e empresa.</div>
+      <button class="btn-primary" onclick="iniciarTeste()">Iniciar Teste</button>
+    </div>
+
+    <div class="lookup-section">
+      <h3>Já realizou o teste?</h3>
+      <p style="color:var(--cih-muted); font-size:0.9rem; margin-bottom:12px;">Digite seu token para acessar o resultado.</p>
+      <div class="lookup-row">
+        <input type="text" id="lookup-token" placeholder="EX: A1B2C3D4E5F6" maxlength="12">
+        <button class="btn-lookup" onclick="buscarResultado()">Acessar</button>
+      </div>
+      <div id="error-lookup" class="error-msg">Token não encontrado. Verifique e tente novamente.</div>
+    </div>
+  </div>
+
+  <!-- QUESTIONÁRIO -->
+  <div id="quiz-screen" class="quiz-section">
+    <div class="progress-bar-wrap"><div id="progress-fill" class="progress-bar-fill" style="width:0%"></div></div>
+    <div id="progress-text" class="progress-text"></div>
+    <div id="sessao-container"></div>
+    <div class="nav-buttons">
+      <button id="btn-back" class="btn-nav btn-back" onclick="voltarSessao()">Voltar</button>
+      <button id="btn-next" class="btn-nav btn-next" onclick="avancarSessao()">Próxima Sessão</button>
+    </div>
+    <button id="btn-enviar" class="btn-submit" style="display:none; margin-top:16px;" onclick="enviarRespostas()">Finalizar e Ver Resultado</button>
+  </div>
+
+  <!-- LOADING -->
+  <div id="loading-screen" class="loading">
+    <div class="spinner"></div>
+    <p style="color:var(--cih-muted)">Processando sua avaliação...</p>
+  </div>
+
+  <!-- TOKEN -->
+  <div id="token-screen" class="token-screen"></div>
+
+</div>
+
+<div class="footer">
+  <p><strong>CIH</strong> — Consultoria Impacto Humano</p>
+  <p>Soluções Inteligentes para Gestão de Pessoas</p>
+  <p style="margin-top:8px;">Teste baseado nas Metodologias: Gartner, OPM3, COBIT, MIT Sloan, ITIL, BPMM e Ken Blanchard</p>
+</div>
+
+<script>
+let questoes = [];
+let sessaoAtual = 0;
+let respostas = {};
+
+async function carregarQuestoes() {
+  const r = await fetch('/api/questoes');
+  questoes = await r.json();
+}
+carregarQuestoes();
+
+function iniciarTeste() {
+  const nome = document.getElementById('nome').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const empresa = document.getElementById('empresa').value.trim();
+  if (!nome || !email || !empresa) {
+    document.getElementById('error-start').style.display = 'block';
+    return;
+  }
+  document.getElementById('error-start').style.display = 'none';
+  document.getElementById('intro-screen').style.display = 'none';
+  document.getElementById('quiz-screen').style.display = 'block';
+  sessaoAtual = 0;
+  renderSessao();
+}
+
+function renderSessao() {
+  const s = questoes[sessaoAtual];
+  const totalSessoes = questoes.length;
+  const pct = Math.round(((sessaoAtual) / totalSessoes) * 100);
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('progress-text').textContent = `Sessão ${sessaoAtual + 1} de ${totalSessoes} — ${s.titulo}`;
+
+  let html = `<div class="sessao-header">
+    <div class="sessao-num">Sessão ${s.sessao} de ${totalSessoes}</div>
+    <h3>${s.titulo}</h3>
+  </div>`;
+
+  s.perguntas.forEach((p, i) => {
+    const answered = respostas[p.id] !== undefined;
+    html += `<div class="pergunta-card ${answered ? 'answered' : ''}" id="card-${p.id}">
+      <h4><span class="q-num">${p.id}.</span> ${p.texto}</h4>`;
+    p.opcoes.forEach((op, oi) => {
+      const val = oi + 1;
+      const sel = respostas[p.id] === val ? 'selected' : '';
+      html += `<div class="opcao ${sel}" onclick="selecionar(${p.id}, ${val}, this)">
+        <div class="radio-custom"></div>
+        <span class="valor">(${val})</span>
+        <span>${op}</span>
+      </div>`;
+    });
+    html += '</div>';
+  });
+
+  document.getElementById('sessao-container').innerHTML = html;
+
+  document.getElementById('btn-back').style.display = sessaoAtual === 0 ? 'none' : '';
+  const isLast = sessaoAtual === totalSessoes - 1;
+  document.getElementById('btn-next').style.display = isLast ? 'none' : '';
+  document.getElementById('btn-enviar').style.display = isLast ? 'block' : 'none';
+  checkNavState();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function selecionar(perguntaId, valor, el) {
+  respostas[perguntaId] = valor;
+  const card = document.getElementById('card-' + perguntaId);
+  card.querySelectorAll('.opcao').forEach(o => o.classList.remove('selected'));
+  el.classList.add('selected');
+  card.classList.add('answered');
+  checkNavState();
+}
+
+function checkNavState() {
+  const s = questoes[sessaoAtual];
+  const allAnswered = s.perguntas.every(p => respostas[p.id] !== undefined);
+  const isLast = sessaoAtual === questoes.length - 1;
+  if (!isLast) document.getElementById('btn-next').disabled = !allAnswered;
+  if (isLast) {
+    const totalAnswered = Object.keys(respostas).length;
+    document.getElementById('btn-enviar').disabled = totalAnswered < 30;
+  }
+}
+
+function avancarSessao() {
+  if (sessaoAtual < questoes.length - 1) {
+    sessaoAtual++;
+    renderSessao();
+  }
+}
+
+function voltarSessao() {
+  if (sessaoAtual > 0) {
+    sessaoAtual--;
+    renderSessao();
+  }
+}
+
+async function enviarRespostas() {
+  const nome = document.getElementById('nome').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const empresa = document.getElementById('empresa').value.trim();
+
+  document.getElementById('quiz-screen').style.display = 'none';
+  document.getElementById('loading-screen').style.display = 'block';
+
+  const respostasStr = {};
+  for (const k in respostas) respostasStr[k] = respostas[k];
+
+  try {
+    const r = await fetch('/api/enviar', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ nome, email, empresa, respostas: respostasStr })
+    });
+    const data = await r.json();
+    if (data.error) { alert(data.error); return; }
+
+    document.getElementById('loading-screen').style.display = 'none';
+    mostrarToken(data.token, data.score_total, data.nivel, data.email_sent);
+  } catch (e) {
+    alert('Erro ao enviar. Tente novamente.');
+    document.getElementById('loading-screen').style.display = 'none';
+    document.getElementById('quiz-screen').style.display = 'block';
+  }
+}
+
+const niveisInfo = {
+  1: { nome: 'Inicial', cor: '#e53935' },
+  2: { nome: 'Em Desenvolvimento', cor: '#fb8c00' },
+  3: { nome: 'Estabelecido', cor: '#fdd835' },
+  4: { nome: 'Avançado', cor: '#43a047' },
+  5: { nome: 'Excelência', cor: '#1565c0' }
+};
+
+function mostrarToken(token, score, nivel, emailSent) {
+  const n = niveisInfo[nivel];
+  const textColor = nivel === 3 ? '#333' : '#fff';
+  const emailMsg = emailSent
+    ? '<p style="color:#43a047; font-size:0.9rem; margin-top:12px;">O resultado também foi enviado para o seu e-mail.</p>'
+    : '<p style="color:#607d8b; font-size:0.85rem; margin-top:12px;">O envio por e-mail não está disponível no momento. Use o token para acessar seu resultado.</p>';
+  document.getElementById('token-screen').style.display = 'block';
+  document.getElementById('token-screen').innerHTML = `
+    <div class="token-icon">&#9989;</div>
+    <h2>Avaliação Concluída!</h2>
+    <p>Seu resultado foi salvo. Use o token abaixo para acessar a qualquer momento.</p>
+    <div class="token-box">
+      <div class="label">Seu Token de Acesso</div>
+      <div class="token-value">${token}</div>
+    </div>
+    <div class="score-preview">
+      <div class="score-badge" style="background:${n.cor}; color:${textColor};">
+        Score: ${score.toFixed(2)} &mdash; Nível ${nivel}: ${n.nome}
+      </div>
+    </div>
+    ${emailMsg}
+    <div style="margin-top:24px;">
+      <button class="btn-primary" onclick="window.location.href='/resultado/${token}'">Ver Resultado Completo</button>
+    </div>
+    <div style="margin-top:16px;">
+      <button class="btn-nav btn-back" onclick="copiarToken('${token}')">Copiar Token</button>
+    </div>
+  `;
+}
+
+function copiarToken(token) {
+  navigator.clipboard.writeText(token).then(() => alert('Token copiado!')).catch(() => {});
+}
+
+async function buscarResultado() {
+  const token = document.getElementById('lookup-token').value.trim().toUpperCase();
+  if (!token) return;
+  try {
+    const r = await fetch('/api/resultado/' + token);
+    if (r.ok) {
+      window.location.href = '/resultado/' + token;
+    } else {
+      document.getElementById('error-lookup').style.display = 'block';
+    }
+  } catch (e) {
+    document.getElementById('error-lookup').style.display = 'block';
+  }
+}
+</script>
+</body>
+</html>

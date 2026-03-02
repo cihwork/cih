@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resultado | Maturidade Organizacional | CIH</title>
+<style>
+:root {
+  --cih-dark: #0a1628;
+  --cih-blue: #0097a7;
+  --cih-cyan: #00bcd4;
+  --cih-light: #e0f7fa;
+  --cih-white: #ffffff;
+  --cih-gray: #f5f7fa;
+  --cih-text: #263238;
+  --cih-muted: #607d8b;
+  --nivel-1: #e53935;
+  --nivel-2: #fb8c00;
+  --nivel-3: #fdd835;
+  --nivel-4: #43a047;
+  --nivel-5: #1565c0;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--cih-gray); color: var(--cih-text); }
+
+.header {
+  background: linear-gradient(135deg, var(--cih-dark) 0%, #0d2137 100%);
+  padding: 24px 0; text-align: center;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+}
+.header .brand { display: flex; align-items: center; justify-content: center; gap: 12px; margin-bottom: 8px; }
+.header .logo-text { font-size: 2rem; font-weight: 800; color: var(--cih-cyan); letter-spacing: 3px; }
+.header .logo-sub { font-size: 0.7rem; color: var(--cih-muted); letter-spacing: 4px; text-transform: uppercase; }
+.header h1 { color: var(--cih-white); font-size: 1.1rem; font-weight: 400; letter-spacing: 2px; text-transform: uppercase; }
+
+.container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+
+.loading { text-align: center; padding: 60px; }
+.spinner { width: 40px; height: 40px; border: 4px solid #e0e0e0; border-top-color: var(--cih-cyan); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 16px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.error-screen { text-align: center; padding: 60px; }
+.error-screen h2 { color: var(--nivel-1); margin-bottom: 12px; }
+
+.result-header {
+  text-align: center; padding: 40px 20px; background: white;
+  border-radius: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); margin-bottom: 24px;
+}
+.result-header .meta { font-size: 0.85rem; color: var(--cih-muted); margin-bottom: 8px; }
+.result-header .meta strong { color: var(--cih-text); }
+.result-header .token-display { font-size: 0.8rem; color: var(--cih-muted); letter-spacing: 2px; font-family: monospace; margin-bottom: 20px; }
+
+.score-big {
+  display: inline-flex; flex-direction: column; align-items: center;
+  padding: 24px 48px; border-radius: 20px; margin: 16px 0;
+}
+.score-big .number { font-size: 3.5rem; font-weight: 800; line-height: 1; }
+.score-big .label { font-size: 0.85rem; margin-top: 8px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; }
+.score-big .sublabel { font-size: 0.8rem; margin-top: 4px; opacity: 0.8; }
+
+/* RADAR */
+.radar-section { background: white; border-radius: 16px; padding: 32px; margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.radar-section h3 { text-align: center; margin-bottom: 24px; color: var(--cih-dark); }
+.radar-wrap { display: flex; justify-content: center; margin-bottom: 20px; }
+canvas#radarChart { max-width: 450px; max-height: 450px; }
+
+.sessao-scores { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; }
+.sessao-score-card {
+  display: flex; align-items: center; gap: 12px; padding: 16px; background: var(--cih-gray);
+  border-radius: 10px; border-left: 4px solid var(--cih-cyan);
+}
+.sessao-score-card .ss-num { font-size: 1.6rem; font-weight: 800; color: var(--cih-blue); min-width: 50px; text-align: center; }
+.sessao-score-card .ss-info h4 { font-size: 0.85rem; color: var(--cih-dark); }
+.sessao-score-card .ss-bar { height: 6px; background: #e0e0e0; border-radius: 3px; margin-top: 6px; overflow: hidden; }
+.sessao-score-card .ss-bar-fill { height: 100%; border-radius: 3px; transition: width 1s ease; }
+
+/* DETALHES DO NÍVEL */
+.nivel-detail {
+  background: white; border-radius: 16px; padding: 32px; margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.nivel-detail h3 { margin-bottom: 20px; color: var(--cih-dark); }
+.detail-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+.detail-card { padding: 20px; border-radius: 12px; background: var(--cih-gray); }
+.detail-card h4 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+.detail-card ul { list-style: none; }
+.detail-card li { padding: 6px 0; font-size: 0.9rem; line-height: 1.5; display: flex; align-items: flex-start; gap: 8px; }
+.detail-card li::before { content: ''; width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; margin-top: 7px; }
+.card-caract li::before { background: var(--cih-blue); }
+.card-desafio li::before { background: var(--nivel-1); }
+.card-acao li::before { background: var(--nivel-4); }
+
+/* RECOMENDAÇÕES */
+.rec-section {
+  background: white; border-radius: 16px; padding: 32px; margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.rec-section > h3 { margin-bottom: 8px; color: var(--cih-dark); }
+.rec-section > p { color: var(--cih-muted); font-size: 0.9rem; margin-bottom: 24px; }
+.rec-category {
+  margin-bottom: 24px; padding: 20px; border-radius: 12px;
+  background: var(--cih-gray); border-left: 4px solid var(--cih-blue);
+}
+.rec-category:last-child { margin-bottom: 0; }
+.rec-cat-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; flex-wrap: wrap; gap: 8px; }
+.rec-cat-header h4 { font-size: 0.95rem; color: var(--cih-dark); margin: 0; }
+.rec-cat-badge {
+  font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;
+  padding: 4px 12px; border-radius: 20px; color: white;
+}
+.rec-cat-badge.baixo { background: var(--nivel-1); }
+.rec-cat-badge.medio { background: var(--nivel-2); }
+.rec-cat-badge.alto { background: var(--nivel-4); }
+.rec-category ul { list-style: none; margin: 0; padding: 0; }
+.rec-category li {
+  padding: 8px 0; font-size: 0.88rem; line-height: 1.6; color: var(--cih-text);
+  display: flex; align-items: flex-start; gap: 10px;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+.rec-category li:last-child { border-bottom: none; }
+.rec-category li::before {
+  content: ''; width: 8px; height: 8px; border-radius: 2px;
+  flex-shrink: 0; margin-top: 7px; background: var(--cih-cyan);
+}
+
+.actions-section {
+  text-align: center; padding: 32px; background: white; border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 24px;
+}
+.actions-section .btn-group { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+.btn-action {
+  padding: 14px 28px; border-radius: 10px; font-size: 0.95rem; font-weight: 600;
+  cursor: pointer; transition: all 0.3s; text-decoration: none; display: inline-block;
+}
+.btn-primary-action {
+  background: linear-gradient(135deg, var(--cih-blue), var(--cih-cyan));
+  color: white; border: none;
+}
+.btn-primary-action:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,151,167,0.4); }
+.btn-secondary-action { background: white; color: var(--cih-blue); border: 2px solid var(--cih-blue); }
+.btn-secondary-action:hover { background: var(--cih-light); }
+
+.footer { text-align: center; padding: 32px; color: var(--cih-muted); font-size: 0.8rem; }
+
+@media (max-width: 600px) {
+  .score-big .number { font-size: 2.5rem; }
+  .score-big { padding: 20px 32px; }
+  .container { padding: 16px 12px; }
+}
+
+@media print {
+  .header { position: static; box-shadow: none; }
+  .actions-section { display: none; }
+  body { background: white; }
+  .rec-category, .nivel-detail, .radar-section, .result-header { box-shadow: none; break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="brand"><span class="logo-text">CIH</span></div>
+  <div class="logo-sub">Consultoria Impacto Humano</div>
+  <h1>Resultado da Avaliação</h1>
+</div>
+
+<div class="container">
+  <div id="loading" class="loading">
+    <div class="spinner"></div>
+    <p style="color:var(--cih-muted)">Carregando resultado...</p>
+  </div>
+  <div id="error" class="error-screen" style="display:none;">
+    <h2>Token não encontrado</h2>
+    <p style="color:var(--cih-muted)">Verifique o token e tente novamente.</p>
+    <a href="/" class="btn-action btn-secondary-action" style="margin-top:20px;">Voltar ao Início</a>
+  </div>
+  <div id="result" style="display:none;"></div>
+</div>
+
+<div class="footer">
+  <p><strong>CIH</strong> — Consultoria Impacto Humano</p>
+  <p>Soluções Inteligentes para Gestão de Pessoas</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+const nivelCores = { 1:'#e53935', 2:'#fb8c00', 3:'#fdd835', 4:'#43a047', 5:'#1565c0' };
+
+function getScoreColor(score) {
+  if (score < 2) return nivelCores[1];
+  if (score < 3) return nivelCores[2];
+  if (score < 4) return nivelCores[3];
+  if (score < 4.5) return nivelCores[4];
+  return nivelCores[5];
+}
+
+const faixaLabels = { baixo: 'Prioridade Alta', medio: 'Em Desenvolvimento', alto: 'Avançado' };
+
+async function loadResult() {
+  const path = window.location.pathname;
+  const token = path.split('/resultado/')[1];
+  if (!token) { showError(); return; }
+
+  try {
+    const r = await fetch('/api/resultado/' + token);
+    if (!r.ok) { showError(); return; }
+    const data = await r.json();
+    renderResult(data);
+  } catch (e) {
+    showError();
+  }
+}
+
+function showError() {
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('error').style.display = 'block';
+}
+
+function renderResult(data) {
+  document.getElementById('loading').style.display = 'none';
+  const el = document.getElementById('result');
+  el.style.display = 'block';
+
+  const n = data.nivel;
+  const nivelNum = n.nivel;
+  const cor = n.cor;
+  const textColor = nivelNum === 3 ? '#333' : '#fff';
+  const dateStr = new Date(data.created_at).toLocaleDateString('pt-BR', { day:'2-digit', month:'long', year:'numeric' });
+
+  const sessoes = data.scores_sessao;
+  const labels = [];
+  const values = [];
+  const sessaoKeys = Object.keys(sessoes).sort((a,b) => parseInt(a) - parseInt(b));
+  sessaoKeys.forEach(k => {
+    labels.push(sessoes[k].titulo);
+    values.push(sessoes[k].media);
+  });
+
+  let sessaoCardsHtml = '';
+  sessaoKeys.forEach(k => {
+    const s = sessoes[k];
+    const pct = (s.media / 5) * 100;
+    const barColor = getScoreColor(s.media);
+    sessaoCardsHtml += `
+      <div class="sessao-score-card">
+        <div class="ss-num">${s.media.toFixed(1)}</div>
+        <div class="ss-info" style="flex:1">
+          <h4>${s.titulo}</h4>
+          <div class="ss-bar"><div class="ss-bar-fill" style="width:${pct}%; background:${barColor}"></div></div>
+        </div>
+      </div>`;
+  });
+
+  let caractHtml = n.caracteristicas.map(c => `<li>${c}</li>`).join('');
+  let desafiosHtml = n.desafios.map(d => `<li>${d}</li>`).join('');
+  let acoesHtml = n.acoes.map(a => `<li>${a}</li>`).join('');
+
+  // Recomendações por categoria
+  const recs = data.recomendacoes || {};
+  let recsHtml = '';
+  const recKeys = Object.keys(recs).sort((a,b) => parseInt(a) - parseInt(b));
+  recKeys.forEach(k => {
+    const rec = recs[k];
+    const items = (rec.recomendacoes || []).map(r => `<li>${r}</li>`).join('');
+    const faixa = rec.faixa || 'medio';
+    const faixaLabel = faixaLabels[faixa] || faixa;
+    recsHtml += `
+      <div class="rec-category">
+        <div class="rec-cat-header">
+          <h4>${rec.titulo}</h4>
+          <span class="rec-cat-badge ${faixa}">${faixaLabel} &mdash; Score ${rec.media.toFixed(1)}</span>
+        </div>
+        <ul>${items}</ul>
+      </div>`;
+  });
+
+  el.innerHTML = `
+    <div class="result-header">
+      <div class="meta"><strong>${data.nome}</strong> &mdash; ${data.empresa}</div>
+      <div class="meta">Avaliação realizada em ${dateStr}</div>
+      <div class="token-display">TOKEN: ${data.token}</div>
+      <div class="score-big" style="background:${cor}; color:${textColor}">
+        <div class="number">${data.score_total.toFixed(2)}</div>
+        <div class="label">Nível ${nivelNum} — ${n.nome}</div>
+        <div class="sublabel">${n.subtitulo}</div>
+      </div>
+    </div>
+
+    <div class="radar-section">
+      <h3>Mapa de Maturidade por Dimensão</h3>
+      <div class="radar-wrap"><canvas id="radarChart" width="450" height="450"></canvas></div>
+      <div class="sessao-scores">${sessaoCardsHtml}</div>
+    </div>
+
+    <div class="nivel-detail">
+      <h3>Diagnóstico — Nível ${nivelNum}: ${n.nome}</h3>
+      <div class="detail-grid">
+        <div class="detail-card card-caract">
+          <h4 style="color:var(--cih-blue)">Características</h4>
+          <ul>${caractHtml}</ul>
+        </div>
+        <div class="detail-card card-desafio">
+          <h4 style="color:var(--nivel-1)">Principais Desafios</h4>
+          <ul>${desafiosHtml}</ul>
+        </div>
+        <div class="detail-card card-acao">
+          <h4 style="color:var(--nivel-4)">Ações para Evoluir</h4>
+          <ul>${acoesHtml}</ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="rec-section">
+      <h3>Recomendações de Mercado por Categoria</h3>
+      <p>Com base nos resultados da sua avaliação, estas são as recomendações estratégicas personalizadas para cada dimensão organizacional.</p>
+      ${recsHtml}
+    </div>
+
+    <div class="actions-section">
+      <h3 style="margin-bottom:16px; color:var(--cih-dark);">Próximos Passos</h3>
+      <p style="color:var(--cih-muted); margin-bottom:20px;">A CIH pode ajudar sua empresa a evoluir em cada dimensão avaliada.</p>
+      <div class="btn-group">
+        <button class="btn-action btn-primary-action" onclick="window.print()">Imprimir Resultado</button>
+        <a href="/" class="btn-action btn-secondary-action">Realizar Novo Teste</a>
+      </div>
+    </div>
+  `;
+
+  // Radar Chart
+  const ctx = document.getElementById('radarChart').getContext('2d');
+  new Chart(ctx, {
+    type: 'radar',
+    data: {
+      labels: labels.map(l => l.length > 25 ? l.substring(0,25)+'...' : l),
+      datasets: [{
+        label: 'Score',
+        data: values,
+        backgroundColor: 'rgba(0, 151, 167, 0.15)',
+        borderColor: '#0097a7',
+        borderWidth: 2.5,
+        pointBackgroundColor: '#0097a7',
+        pointBorderColor: '#fff',
+        pointBorderWidth: 2,
+        pointRadius: 6
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      scales: {
+        r: {
+          min: 0, max: 5,
+          ticks: { stepSize: 1, font: { size: 11 }, backdropColor: 'transparent' },
+          pointLabels: { font: { size: 11, weight: '600' }, color: '#263238' },
+          grid: { color: 'rgba(0,0,0,0.08)' },
+          angleLines: { color: 'rgba(0,0,0,0.08)' }
+        }
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: { label: ctx => `Score: ${ctx.parsed.r.toFixed(1)}` }
+        }
+      }
+    }
+  });
+}
+
+loadResult();
+</script>
+</body>
+</html>
